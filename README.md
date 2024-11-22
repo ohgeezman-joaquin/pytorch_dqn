@@ -1,6 +1,6 @@
 # Lunar Lander 深度強化學習專案
 
-本專案旨在透過深度強化學習演算法（DQN、Double DQN、Dueling DQN）實現 `LunarLander-v3` 環境的自動化控制，訓練智能體完成成功著陸任務。
+本專案旨在透過深度強化學習演算法（DQN、Double DQN、Dueling DQN）實現 `LunarLander-v3` 環境的自動化控制，訓練agent完成成功著陸任務。
 
 ## 專案架構
 
@@ -68,4 +68,4 @@ from method.dueling_dqn import DuelingDQNAgent
 
 - 訓練完成後會繪製訓練過程的平均獎勵圖：
   ![Reward Plot](./reward_plot.png)  
-- 智能體的最終表現可透過測試腳本顯示動畫。
+- agent的最終表現可透過測試腳本顯示動畫。
