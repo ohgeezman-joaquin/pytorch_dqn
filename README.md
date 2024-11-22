@@ -53,11 +53,11 @@ python test.py
 
 ## 支援的演算法
 
-- **DQN**: 基本的深度 Q 學習演算法
-- **Double DQN**: 改善 Q 值高估的問題
-- **Dueling DQN**: 引入價值和優勢分支的架構以提升學習效果
+- **DQN**
+- **Double DQN**
+- **Dueling DQN**
 
-您可以在 `main.py` 中切換使用的智能體類型：
+您可以在 `main.py` 中切換使用的Agent類型：
 ```python
 from method.dqn import DQNAgent
 from method.double_dqn import DoubleDQNAgent
