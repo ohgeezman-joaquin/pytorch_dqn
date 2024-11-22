@@ -25,11 +25,6 @@
 - Gymnasium 版本適配 `LunarLander-v3` 環境
 - 其他套件：`numpy`、`matplotlib`
 
-可以透過以下指令安裝依賴：
-```bash
-pip install torch gymnasium numpy matplotlib
-```
-
 ## 執行方式
 
 ### 1. 訓練模型
